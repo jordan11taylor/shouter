@@ -1,0 +1,20 @@
+// Colours
+$black: #202020;
+
+// Typography
+$body_font: "proxima-nova", helvetica, arial, sans-serif;
+$header_font: "proxima-nova", Helvetica, Arial, sans-serif;
+
+body {
+  font-size: 22px;
+  font-family: $body_font;
+  line-height: 1.6em;
+  color: $black;
+}
+
+h1, h2, h3, h4 {
+  font-family: $header_font;
+  color: $black;
+  line-height: normal;
+  font-weight: bold;
+}
